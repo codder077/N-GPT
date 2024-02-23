@@ -80,10 +80,10 @@ const Login = () => {
     setIsSignInForm(!isSignInForm);
   };
   return (
-    <div className='relative'>
+    <div className=' relative'>
       <Header/>
-      <div className="absolute">
-        <img className="h-screen object-cover" src={bag_img} alt="logo" />
+      <div className="absolute bg-cover w-full h-screen  ">
+        <img className="h-screen w-[2500px]" src={bag_img} alt="logo" />
       </div>
       <form onSubmit={(e) => {e.preventDefault()}}
       className='w-full md:w-3/12 absolute p-12 bg-black my-36 mx-auto right-0 left-0 text-white rounded-lg bg-opacity-80'>
